@@ -1,6 +1,3 @@
 $(document).ready(function () {
-    $.stellar({
-        horizontalScrolling: false,
-        verticalOffset: 40
-    });
+    jQuery( '.parallax-layer' ).parallax({});
 });
